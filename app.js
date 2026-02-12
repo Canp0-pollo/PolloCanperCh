@@ -5,194 +5,194 @@ const productos = [
   {
     nombre: "Pizza Pepperoni",
     precio: 185,
-    imagen: "/webp/pizza pepperoni.webp",
+    imagen: "./webp/pizza-pepperoni.webp",
     categoria: "principal"
   },
   {
     nombre: "Pizza hawaiana",
     precio: 198,
-    imagen: "/webp/pz_hawa.webp",
+    imagen: "./webp/pz_hawa.webp",
     categoria: "principal"
   },
   {
     nombre: "Pizza tres carnes",
     precio: 235,
-    imagen: "/webp/pz_3_car.webp",
+    imagen: "./webp/pz_3_car.webp",
     categoria: "principal"
   },
   {
     nombre: "Pizza Flamin Hot",
     precio: 285,
-    imagen: "/webp/pz_flm_hot.webp",
+    imagen: "./webp/pz_flm_hot.webp",
     categoria: "principal"
   },
   {
     nombre: "Pizza Especial",
     precio: 285,
-    imagen: "/webp/pz_especial.webp",
+    imagen: "./webp/pz_especial.webp",
     categoria: "principal"
   },
   {
     nombre: "Pizza Suprema",
     precio: 285,
-    imagen: "/webp/pz_supre.webp",
+    imagen: "./webp/pz_supre.webp",
     categoria: "principal"
   },
   {
     nombre: "Pizza con Boneless",
     precio: 285,
-    imagen: "/webp/pz_boneless.webp",
+    imagen: "./webp/pz_boneless.webp",
     categoria: "principal"
   },
   {
     nombre: "Pizza Italiana",
     precio: 225,
-    imagen: "/webp/pz_ital.webp",
+    imagen: "./webp/pz_ital.webp",
     categoria: "principal"
   },
   {
     nombre: "Pizza Doble Sabor",
     precio: 215,
-    imagen: "/webp/pz_2ble_sabor.webp",
+    imagen: "./webp/pz_2ble_sabor.webp",
     categoria: "principal"
   },
   {
     nombre: "Pizza Cuatro Estaciones",
     precio: 225,
-    imagen: "/webp/pz_4.webp",
+    imagen: "./webp/pz_4.webp",
     categoria: "principal"
   },
   {
     nombre: "Pizza Vegana",
     precio: 195,
-    imagen: "/webp/pz_veg.webp",
+    imagen: "./webp/pz_veg.webp",
     categoria: "principal"
   },
   {
     nombre: "Pizza Duo Champiñon",
     precio: 225,
-    imagen: "/webp/pz_duo_champ.webp",
+    imagen: "./webp/pz_duo_champ.webp",
     categoria: "principal"
   },
   {
     nombre: "Pizza Carne Asada",
     precio: 280,
-    imagen: "/webp/pz_car_asada.webp",
+    imagen: "./webp/pz_car_asada.webp",
     categoria: "principal"
   },
   {
     nombre: "Pizza Duo Suprema",
     precio: 245,
-    imagen: "/webp/pz_duo_supr.webp",
+    imagen: "./webp/pz_duo_supr.webp",
     categoria: "principal"
   },
   {
     nombre: "Pepperoni con Jalapeño",
     precio: 200,
-    imagen: "/webp/pz_pep_jal.webp",
+    imagen: "./webp/pz_pep_jal.webp",
     categoria: "principal"
   },
   {
     nombre: "Pepperoni-Hawaiana",
     precio: 210,
-    imagen: "/webp/pep_hawai.webp",
+    imagen: "./webp/pep_hawai.webp",
     categoria: "principal"
   },
   {
     nombre: "Pepperoni Salchicha Italiana",
     precio: 215,
-    imagen: "/webp/pep_salch_it.webp",
+    imagen: "./webp/pep_salch_it.webp",
     categoria: "principal"
   },
   {
     nombre: "Pepperoni Tres Carnes",
     precio: 220,
-    imagen: "/webp/pep_3_carn.webp",
+    imagen: "./webp/pep_3_carn.webp",
     categoria: "principal"
   },
   {
     nombre: "Pizza de Queso",
     precio: 170,
-    imagen: "/webp/pz_queso.webp",
+    imagen: "./webp/pz_queso.webp",
     categoria: "principal"
   },
 // ENTRADA
   {
     nombre: "Alitas Picositas",
     precio: 150,
-    imagen: "/webp/ali_picosi.webp",
+    imagen: "./webp/ali_picosi.webp",
     categoria: "entrada"
   },
   {
     nombre: "Boneless",
     precio: 140,
-    imagen: "/webp/boneles.webp",
+    imagen: "./webp/boneles.webp",
     categoria: "entrada"
   },
   {
     nombre: "Aros de Cebolla",
     precio: 85,
-    imagen: "/webp/aro_cebolla.webp",
+    imagen: "./webp/aro_cebolla.webp",
     categoria: "entrada"
   },
   {
     nombre: "Dedos de Queso",
     precio: 130,
-    imagen: "/webp/dedos_queso.webp",
+    imagen: "./webp/dedos_queso.webp",
     categoria: "entrada"
   },
   {
     nombre: "Papas con Queso y Tocino",
     precio: 115,
-    imagen: "/webp/pps_c_queso.webp",
+    imagen: "./webp/pps_c_queso.webp",
     categoria: "entrada"
   },
   {
     nombre: "Papas con Boneless",
     precio: 185,
-    imagen: "/webp/papas_c_bon.webp",
+    imagen: "./webp/papas_c_bon.webp",
     categoria: "entrada"
   },
   {
     nombre: "Orden - Pan de Ajo",
     precio: 180,
-    imagen: "/webp/pan_ajo.webp",
+    imagen: "./webp/pan_ajo.webp",
     categoria: "entrada"
   },
   {
     nombre: "Hamburguesa con Papas",
     precio: 125,
-    imagen: "/webp/hamb_c_queso.webp",
+    imagen: "./webp/hamb_c_queso.webp",
     categoria: "entrada"
   },
   {
     nombre: "Ensalada con Pollo",
     precio: 140,
-    imagen: "/webp/ens_pollo.webp",
+    imagen: "./webp/ens_pollo.webp",
     categoria: "entrada"
   },
   {
     nombre: "Tiras de Pollo",
     precio: 150,
-    imagen: "/webp/tiras_d_pollo.webp",
+    imagen: "./webp/tiras_d_pollo.webp",
     categoria: "entrada"
   },
   {
     nombre: "Camper Box",
     precio: 395,
-    imagen: "/webp/camp_box.webp",
+    imagen: "./webp/camp_box.webp",
     categoria: "entrada"
   },
   {
     nombre: "Mega Box",
     precio: 480,
-    imagen: "/webp/M_camp_box.webp",
+    imagen: "./webp/M_camp_box.webp",
     categoria: "entrada"
   },
   {
     nombre: "Pasta Alfredo",
     precio: 85,
-    imagen: "/webp/pasta_alf.webp",
+    imagen: "./webp/pasta_alf.webp",
     categoria: "entrada"
   },
 // BEBIDAS
@@ -200,19 +200,19 @@ const productos = [
   {
     nombre: "Agua Natural",
     precio: 25,
-    imagen: "/webp/bebida2.webp",
+    imagen: "./webp/bebida2.webp",
     categoria: "entrada"
   },
   {
     nombre: "Coca-Cola",
     precio: 23,
-    imagen: "/webp/bebida3.webp",
+    imagen: "./webp/bebida3.webp",
     categoria: "entrada"
   },
   {
     nombre: "Bebida",
     precio: 23,
-    imagen: "/webp/bebida1.webp",
+    imagen: "./webp/bebida1.webp",
     categoria: "entrada"
   },
 ];
