@@ -99,7 +99,7 @@ body {
     .card {
       position: relative;
        width: clamp(160px, 45vw, 230px);
-      background: white;
+      background: rgb(202, 215, 222);
       border-radius: 10px;
       overflow: hidden;
       box-shadow: 0 3px 10px rgba(0,0,0,0.07);

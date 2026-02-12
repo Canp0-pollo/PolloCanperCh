@@ -1,0 +1,91 @@
+@media (max-width: 768px) {
+
+  /* ===== DETAILS / SUMMARY ===== */
+
+  details {
+    border-radius: 10px;
+    margin-bottom: 12px;
+  }
+
+  summary {
+    padding: 0.9rem 1rem;
+    font-size: 1rem;
+  }
+
+  .content {
+    padding: 1rem;
+    overflow-y: auto;
+    max-height: 70vh; /* evita que encierre las cards */
+  }
+
+  details[open] .content {
+    max-height: 70vh;
+  }
+
+  /* ===== CARDS (GRID) ===== */
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 cards por fila */
+    gap: 0.8rem;
+  }
+
+  /* ===== CARD ===== */
+
+  .card {
+    width: 100%; /* importante: no clamp en móvil */
+    max-width: 100%;
+  }
+
+  .card img {
+    height: 130px;
+  }
+
+  .card-name {
+    font-size: 0.9rem;
+    padding: 0.6rem;
+  }
+
+  .precio {
+    font-size: 0.9rem;
+  }
+
+  .card button {
+    width: 100%;
+    height: 38px;
+    font-size: 0.9rem;
+  }
+
+  /* Botón circular dentro de card */
+  .toggle-options {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+  }
+
+  /* ===== CARRITO ===== */
+
+  #carrito {
+    width: 100%;
+    max-width: 90%;
+    height: 40vh; /* no fijo */
+    padding: 15px;
+    border-radius: 16px 16px 0 0;
+  }
+
+  #lista-carrito {
+    max-height: 45vh;
+    overflow-y: auto;
+  }
+
+  #lista-carrito .item-carrito {
+    font-size: 0.9rem;
+  }
+
+  #boton-carrito {
+    top: 10px;
+    right: 10px;
+    font-size: 16px;
+    padding: 8px 14px;
+  }
+}
